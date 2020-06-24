@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
+1.area of a circle
 
 
 import math
@@ -10,7 +7,7 @@ area=math.pi*r*r
 print("area of the circle",area)
 
 
-# In[7]:
+2.area of a regular polygon
 
 
 from math import tan,pi
@@ -20,7 +17,7 @@ area = n * (length**2) / (4 * tan(pi / n))
 print("The area of the polygon is: ",area)
 
 
-# In[8]:
+3.area of a segment of a circle
 
 
 import math
@@ -34,18 +31,14 @@ angle=int(input("enter the angle"))
 print("area of minor segment=",segmentarea(r,angle))
 print("area of major segment=",segmentarea(r,(360-angle)))
 
-
-# In[10]:
-
+4.Shuffle lists
 
 from random import shuffle
 l1 = [100,1,2,3,30,40,"hai","hello"]
 shuffle(l1)
 print(l1)
 
-
-# In[12]:
-
+5.random numbers generator
 
 import random
 n = random.randint(1,1000)
@@ -53,9 +46,10 @@ print(n)
 while(n<1000):
     n=n+50
     print(n)
-
-
-# In[14]:
+    
+    
+6.program using math module
+I)
 
 
 import math
@@ -63,7 +57,7 @@ s=math.sin(60)
 print(s)
 
 
-# In[16]:
+II)
 
 
 import math
@@ -71,7 +65,7 @@ c=math.cos(math.pi)
 print(c)
 
 
-# In[17]:
+III)
 
 
 import math
@@ -79,7 +73,7 @@ t=math.tan(90)
 print(t)
 
 
-# In[18]:
+IV)
 
 
 import math
@@ -87,40 +81,40 @@ import math
 print(math.sin((0.86602540378443860009)))
 
 
-# In[22]:
+V)
 
 
 print(5**8)
 
 
-# In[23]:
+VI)
 
 
 print(400**0.5)
 
 
-# In[24]:
+VII)
 
 
 import math
 print(5*(math.e))
 
 
-# In[25]:
+VIII)
 
 
 import math
 print(math.log2(1024))
 
 
-# In[26]:
+IX)
 
 
 import math
 print(math.log10(1024))
 
 
-# In[27]:
+X)
 
 
 import math
