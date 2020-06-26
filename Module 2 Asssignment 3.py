@@ -22,7 +22,7 @@ print("The area of the polygon is: ",area)
 
 import math
 def segmentarea(r,angle):
-    sectorarea = pi * (r * r) * (angle / 360) 
+    sectorarea = math.pi * (r * r) * (angle / 360) 
     trianglearea = 1 / 2 *(r * r) *math.sin((angle * pi) / 180) 
   
     return sectorarea - trianglearea; 
